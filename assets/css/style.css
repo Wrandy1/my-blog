@@ -1,0 +1,19 @@
+body{
+background-color: aqua;
+}
+section{
+background-color: red;
+}
+h2{
+  background-color: white;
+  text-align: center;
+  width: 45%;
+  height: 35em;
+  margin-top: 5em;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1em brown;
+  border-style: solid ;
+  border-radius: 50%;
+
+}
