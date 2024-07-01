@@ -7,24 +7,30 @@
   <link rel="stylesheet" href="./assets/css/form.css" />
   <title>Document</title>
 </head>
-<head>
-  <h1></h1>
-</head>
+
 <body>
-  <section>
-    <h2>
-      <strong>My First Blog</strong>
-      </div>
-    </h2>
-    <div id="form-wrapper">
-      <div id="form">
-        <input type="text" id="username" placeholder="Username">
-        <input type="text" id="title" placeholder="Title">
-        <input type="text" id="content" placeholder="Content">
-        <button id="submit">Submit</button>
-      </div>
+  <div class="container">
+    <div class="title">My First Blog</div>
+    <form action="/my-blog/my-blog/blog.html">
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Your Username:</span>
+          <input type="text" id="username" placeholder="Username" required> 
+        </div>
+        <div class="input-box">  
+          <span class="details">Title your work:</span>
+          <input type="text" id="title" placeholder="Title">
+        </div>
+        <div class="input-box">
+          <span class="details">Whats on your mind:</span>
+          <input type="text" id="content" placeholder="Content">
+        </div>
+      <button id="submit"> <a href="/my-blog/my-blog/blog.html">Submit</a></button>
     </div>
-  </section>
+  </div>
+  </div>
+      
+
   <script scr="assets/js/form.js"></script>
 </body>
 </html>
