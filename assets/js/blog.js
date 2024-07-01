@@ -1,0 +1,1 @@
+var text = $('#DynamicValueAssignedHere').find('input[name="FirstName"]').val();
